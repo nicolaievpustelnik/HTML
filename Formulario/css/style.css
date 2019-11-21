@@ -1,0 +1,35 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.marco{
+    background-color:rgb(203, 203, 206);
+    width: 200px;
+    margin-top: 150px;
+    border: 15px solid rgba(28, 28, 31, 0.603);
+    margin-left: auto;
+    border-radius: 5px;
+
+
+
+
+
+}
+
+body{
+    background-image: url(../img/moto.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+input:hover{
+    background-color: rgb(185, 124, 124);
+}
+

@@ -1,0 +1,134 @@
+
+._navedit{
+    background-color: #2C3E50;  
+}
+
+._inicio{
+    background-color: #18BC9C;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h6{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
+._letra-normal{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+span{
+    color: #18BC9C;
+}
+
+._cajita{
+justify-content: center;
+margin-top: 2vh;
+margin-bottom: 2vh;
+}
+
+ion-icon{
+    font-size: 2em;
+}
+
+._deco{
+    background-color: white;
+    width: 7%;
+    height: .3vh;
+}
+
+._profile{
+margin-top: 10vh;
+}
+
+._cuadros{
+    background-color: white;
+}
+
+._deco2{
+    background-color: #2C3E50;
+    width: 7%;
+    height: .3vh;
+}
+._1h2{
+    color: #2C3E50;
+}
+
+._icon-star2{
+    color: #2C3E50;
+}
+
+._bloque{
+    margin-top: -5vh;
+}
+
+._info{
+    background-color: #18BC9C;
+}
+
+._deco3{
+    background-color: white;
+    width: 7%;
+    height: .3vh;
+}
+._down{
+    font-size: 1.4em;
+    margin-bottom: -.5vh;
+}
+
+._complete{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    padding: 3vh;
+    margin-top: -2vh;
+}
+
+._finalbotton{
+    background-color: #18BC9C;
+    border: #18BC9C;
+    margin-left: -60vh;
+    position: relative;
+}
+
+._editbotton{
+    padding-top: 3vh;
+    margin-top: 15vh;
+    width: 50%;
+    border-top: solid .3vh rgb(233, 231, 231);
+    margin-left: 25%;
+}
+
+._complete1{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    padding: 3vh;
+    margin-top: -2vh;
+}
+
+footer{
+    background-color: #2C3E50;
+}
+
+._redes{
+    font-size: 3vh;
+    border: solid .3vh white;
+    border-radius: 100%;
+    padding: 1vh;
+}
+
+._fin{
+    background-color: rgba(8, 8, 24, 0.5);
+    height: 8vh;
+    padding-top: 2vh;
+}
