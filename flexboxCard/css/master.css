@@ -1,22 +1,32 @@
-*{
+* {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0;
 }
 
-body{
+body {
     background-image: url(../img/bg-body.png);
     border: solid 2px #c7c7c7;
     margin: 5%;
 }
 
-.container{
+.container {
     width: 98%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.card{
+.social-icon {
+    color: grey;
+    background-color: white;
+    text-decoration: none;
+}
+
+.icon {
+    background: white;
+}
+
+.card {
     display: flex;
     width: 48%;
     height: 32vh;
@@ -25,23 +35,30 @@ body{
     border-radius: 2%;
 }
 
+.card-perfil-img {
+    width: 177px;
+    height: 177px;
+}
+
 .card-image img {
-    width: 95%;
     margin: 5%;
-    margin-top: 15%;
+    margin-top: 20%;
     border-radius: 50%;
 }
 
-.social-media{
+.social-media {
     display: flex;
     list-style: none;
-    margin-top: -10%;
+    margin-top: -2%;
+    margin-left: 5px;
 }
 
-.card-data{
-    margin: 2%;
+.card-data {
+    margin-top: 30px;
+    margin-left: 25px;
 }
-.ver{
+
+.see-more-button {
     text-decoration: none;
     background-color: #c7c7c7;
     color: white;
@@ -49,47 +66,91 @@ body{
     display: inline-block;
     height: 5vh;
     width: 25%;
-    margin-top: 2%;
+    margin-top: 30px;
     padding-top: 1vh;
     font-size: 1em;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
-h2{
+.text-button {
+    margin-top: 5px;
+}
+
+h2 {
     font-size: 1.5;
 }
 
-p{
+p {
     margin-top: 5%;
     font-size: 1em;
 }
 
-ion-icon{
+ion-icon {
     font-size: 1.5em;
     margin-top: 55%;
     border-radius: 100%;
     background-color: #508fb8;
 }
 
+.card {
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+.see-more-button p {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.see-more-button p:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.see-more-button:hover p {
+    padding-right: 25px;
+}
+
+.see-more-button:hover p:after {
+    opacity: 1;
+    right: 0;
+}
+
 @media (max-width: 700px) {
 
-    .card{
+    .card {
         display: block;
         width: 46%;
         height: 112vh;
         background-color: white;
         margin: 2%;
-        border-radius:1%;
+        border-radius: 1%;
         padding: 1%;
     }
-    
-    .card-image img{
+
+    .card-image img {
         padding-right: 5%;
     }
- 
-    p{
+
+    p {
         margin-top: 5%;
     }
-    .ver{
+
+    .see-more-button {
         width: 40%;
         margin-top: 5%;
         border-radius: 2%;
@@ -98,13 +159,13 @@ ion-icon{
 }
 
 @media (max-width: 375px) {
-    .card{
+    .card {
         display: block;
         width: 100%;
         height: 118vh;
         background-color: white;
         margin: 2%;
-        border-radius:1%;
+        border-radius: 1%;
         padding: 1%;
     }
 }
