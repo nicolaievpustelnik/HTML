@@ -1,35 +1,119 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
+}
+
+.title {
+    color: gray;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 50px;
+    font-size: 3em;
     text-align: center;
-    
 }
 
-.marco{
-    background-color:rgb(203, 203, 206);
-    width: 200px;
+.formBox {
+    /* background-color: rgb(203, 203, 206); */
+    width: 450px;
     margin-top: 150px;
-    border: 15px solid rgba(28, 28, 31, 0.603);
-    margin-left: auto;
+    /* border: 15px solid rgba(131, 131, 131, 0.603); */
+    margin-left: 70%;
     border-radius: 5px;
-
-
-
-
-
 }
 
-body{
+.labeltext {
+    color: gray;
+}
+
+.inputBlock:focus {
+    background-color: transparent;
+    border: 2px solid rgb(51, 7, 7);
+    outline: none;
+}
+
+.inputBlock {
+    color: black;
+    background: transparent;
+    border: none;
+    border-bottom: 0.5px gray solid;
+}
+
+.checkInput {
+    background: gray;
+}
+
+.buttonClass {
+    margin-top: 40px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    border: 0;
+    background-image: linear-gradient(150deg, #ff0000, #ffa500, #ffff00);
+    display: flex;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button span {
+    background-color: black;
+    padding: 5px 180px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+button:hover span {
+    background: none;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+#inputState {
+    background: transparent;
+    border: none;
+    border-bottom: 0.5px gray solid;
+    color: gray;
+}
+
+#inputState:focus {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px gray solid;
+    outline: none;
+}
+
+option {
+    color: gray;
+    background: black;
+}
+
+option:focus {
+    background-color: black;
+    outline: none;
+    animation: none
+}
+
+body {
     background-image: url(../img/moto.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 
-
-
 }
 
-input:hover{
-    background-color: rgb(185, 124, 124);
+input:hover {
+    background-color: rgb(44, 41, 41);
 }
 
+@media (max-width: 1500px) {
+    .formBox {
+        margin-left: 70%;
+        width: 350px;
+    }
+
+    button span {
+        padding: 5px 120px;
+    }
+}
