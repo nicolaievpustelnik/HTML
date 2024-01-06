@@ -19,7 +19,7 @@
   <form class="formBox row g-3">
     <h1 class="title">Register</h1>
     <div class="col-md-6">
-      <input type="email" class="inputBlock form-control" id="inputEmail4" placeholder="Email">
+      <input type="email" class="inputBlock form-control" style="color: red;" id="inputEmail4" placeholder="Email">
     </div>
     <div class="col-md-6">
       <input type="password" class="inputBlock form-control" id="inputPassword4" placeholder="Password">
@@ -33,7 +33,7 @@
     <div class="col-md-6">
       <input type="text" class="inputBlock form-control" id="inputCity" placeholder="City">
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 selectBlock">
       <select id="inputState" class="form-select">
         <option selected>State</option>
         <option>...</option>
@@ -45,7 +45,7 @@
     <div class="col-12">
       <div class="form-check">
         <input class="form-check-input checkInput" type="checkbox" id="gridCheck" placeholder="Remenber me">
-        <label class="text-secondary form-check-label" for="gridCheck">
+        <label class="text-secondary form-check-label tcheck" for="gridCheck">
           Remenber me
         </label>
       </div>
@@ -55,9 +55,6 @@
         <span>Sign in</span>
       </button>
     </div>
-    <!-- <button type="submit" class="btn btn-dark buttonSingIn text-dark">
-      <span>Sign in</span>
-    </button> -->
   </form>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

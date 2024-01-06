@@ -1,26 +1,24 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(../img/fondooo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    background-color: black;
 }
 
-div{
+div {
     width: 100%;
     overflow: hidden;
     position: relative;
-    
+
 }
 
-header img{
-float: left;
-width: 20%;
-height: 10vh;
+header img {
+    float: left;
+    width: 20%;
+    height: 10vh;
 }
 
 nav ul li {
@@ -34,17 +32,19 @@ nav ul li {
     text-decoration: none;
     font-size: 20px;
     font-family: Arial;
-    
-}
-nav ul li:hover{
- border: orangered 2px solid;
- text-decoration: underline;
+
 }
 
-nav{
+nav ul li:hover {
+    border: orangered 2px solid;
+    text-decoration: underline;
+}
+
+nav {
     overflow: hidden;
 }
-.deco1{
+
+.deco1 {
     background-image: url(../img/deco1.jpg);
     height: 270px;
     background-attachment: fixed;
@@ -52,13 +52,13 @@ nav{
     position: relative;
 }
 
-h2{
+h2 {
     color: orangered;
-margin-left: 10%;
-text-align: center;
+    margin-left: 10%;
+    text-align: center;
 }
 
-p{
+p {
     color: white;
     margin-top: 20px;
     border: orangered 2px solid;
@@ -68,26 +68,26 @@ p{
     font-size: 15px;
 }
 
-img{
+img {
     height: 180px;
 }
 
-.seccion1{
-margin-top: 100px;
-overflow: hidden;
+.seccion1 {
+    margin-top: 100px;
+    overflow: hidden;
 }
 
-.seccion1 article{
+.seccion1 article {
     float: left;
-    width:50%;
+    width: 50%;
     padding: 10px;
 }
 
-.articulo-foto{
+.articulo-foto {
     margin-top: 20px;
 }
 
-button{
+button {
     color: black;
     background-color: orangered;
     border: solid 2px black;
@@ -97,43 +97,43 @@ button{
     top: -25px;
 }
 
-h2:hover{
+h2:hover {
     text-decoration: underline;
 }
 
-button:hover{
+button:hover {
     background-color: black;
     color: orangered;
     border: solid orangered 2px;
 }
 
-.seccion2{
+.seccion2 {
     float: left;
-overflow: hidden;
-}
-
-.seccion2 article{
-float: left;
-width: 50%;
-padding: 10px;
-}
-
-.seccion3{
-    float: left;
-overflow: hidden;
-}
-
-.seccion3 article{
-float: left;
-width: 50%;
-padding: 10px;
-}
-
-main{
     overflow: hidden;
 }
 
-footer{
+.seccion2 article {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.seccion3 {
+    float: left;
+    overflow: hidden;
+}
+
+.seccion3 article {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+main {
+    overflow: hidden;
+}
+
+footer {
     /*clear: both; PARA QUE NO FLOTE SIN MAIN*/
     color: white;
     background-color: rgba(99, 99, 99, 0.637);
@@ -141,51 +141,54 @@ footer{
 }
 
 
-@media (max-width: 576px) { 
-    .encabezado{
+@media (max-width: 576px) {
+    .encabezado {
         width: 50%;
     }
- }
+}
 
 
-@media (max-width: 768px) { 
-    header img{
+@media (max-width: 768px) {
+    header img {
         float: none;
         text-align: center;
         width: 100%;
     }
-    .deco1{
+
+    .deco1 {
         display: none;
     }
 
- }
+}
 
 
-@media (max-width: 992px) { 
-   body{
-       font-size: 1.3em;
-   }
-    h2{
+@media (max-width: 992px) {
+    body {
+        font-size: 1.3em;
+    }
+
+    h2 {
         width: 100%;
         text-align: center;
         margin-left: 0;
         text-align: 1.3em;
     }
-    .seccion1 article{
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-    .seccion2 article{
-        text-align: center;
-        float: none;
-        width: 100%;
-    }
-    .seccion3 article{
-        text-align: center;
-        float: none;
-        width: 100%;
-    }
- }
 
+    .seccion1 article {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
 
+    .seccion2 article {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    .seccion3 article {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+}
